@@ -1447,4 +1447,8 @@ footer {
   .button2:hover {
     background-color: #603494;
   }
+form {
+  display: flex;
+  flex-direction: column;
+}
   
