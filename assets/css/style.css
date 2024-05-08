@@ -1453,6 +1453,6 @@ form {
 }
    input::placeholder {
     font-weight: bold;
-    opacity: 0.5;
+    opacity: 1;
     color: #CF9FFF;
   }
