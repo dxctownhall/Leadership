@@ -1347,7 +1347,11 @@ footer {
   }
   .modal-content {
     font-weight: bold;
-    background: linear-gradient(to bottom right,#F87E7B,#B05574);
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+    /* background: linear-gradient(to bottom right,#F87E7B,#B05574); */
   }
   .form-control {
     margin: 1em 0;
@@ -1386,3 +1390,61 @@ footer {
     background: #FAB87F;
     color: #fff;
   }
+
+
+.block{
+    padding-top: 4rem;
+}
+
+  .card {
+    background-color: #fff;
+    /* border-color: #603494; */
+    
+    /* padding: 20px; */
+    /* padding-top: 4rem; */
+    border-radius: 8px;
+    box-shadow: #603494;
+    
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+    outline: none;
+    color: #333;
+  }
+  
+  input:focus {
+    border-color: #555;
+  }
+  
+  .button2 {
+    width: 100%;
+    background-color: #603494;
+    /* border-style: groove; */
+    color: #fff;
+    /* justify-content: center; */
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button2:hover {
+    background-color: #603494;
+  }
+  
