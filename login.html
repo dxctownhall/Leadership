@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="Content-Type" content="text/html" /><meta http-equiv="X-UA-Compatible"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Townhall</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    </head>
+    <body>
+        <div class="container-fluid banner-container">
+            <div class="row">
+                <div >
+                    <div class="cover-text3" >
+                        <h1>Login</h1>
+                        <hr class="hr1">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <section>
+        
+        <div class="tab-content"></div>
+        <!-- <div id ="home" data-tab-content class="active" class="container container-resume city tab-content" >
+            <div class="w3-bar w3-black"> -->
+        <div class="container container-resume">
+            <div class="row">
+                <div class="col">
+                    <div class="about justify-content-center">
+                        <form action="https://sheetdb.io/api/v1/22x6twnhxjsw5" method="POST" id="sheetdb-form">
+                           <h5> Name: <input required class="form-control" name="data[name]"></h5><br>
+                            <h5>Email: <input placeholder="username@dxc.com" required type="email" pattern=".+@dxc.com" class="form-control" name="data[email]"></h5><br>
+                            <!-- <p><button required id="generate">Generate</button></p>
+                            <p><code id="output"></code></p> -->
+                            
+                            <!-- <input id="output1" value="[output]"   />	 -->
+                            <button class="btnSubmit btn-block" type="submit">Submit</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+
+</section>
+  
+  <script>
+    var form = document.getElementById('sheetdb-form');
+    form.addEventListener("submit", e => {
+      e.preventDefault();
+      fetch(form.action, {
+          method : "POST",
+          body: new FormData(document.getElementById("sheetdb-form")),
+      }).then(
+          response => response.json()
+      ).then((html) => {
+        // you can put any JS code here
+        // alert('success')
+        window.location.href="Home.html"
+        document.getElementById("sheetdb-form").reset();
+        
+        // window.location.reload();
+      });
+    });
+
+//     (function() {
+// 	 function IDGenerator() {
+	 
+// 		 this.length = 8;
+// 		 this.timestamp = +new Date;
+		 
+// 		 var _getRandomInt = function( min, max ) {
+// 			return Math.floor( Math.random() * ( max - min + 1 ) ) + min;
+// 		 }
+		 
+// 		 this.generate = function() {
+// 			 var ts = this.timestamp.toString();
+// 			 var parts = ts.split( "" ).reverse();
+// 			 var id = "";
+			 
+// 			 for( var i = 0; i < this.length; ++i ) {
+// 				var index = _getRandomInt( 0, parts.length - 1 );
+// 				id += parts[index];	 
+// 			 }
+			 
+// 			 return id;
+// 		 }
+
+		 
+// 	 }
+	 
+	 
+// 	 document.addEventListener( "DOMContentLoaded", function() {
+// 		var btn = document.querySelector( "#generate" ),
+// 			output = document.querySelector( "#output" );
+			
+// 		btn.addEventListener( "click", function() {
+// 			var generator = new IDGenerator();
+// 			output.innerHTML = generator.generate();
+			
+// 		}, false); 
+		 
+// 	 });
+	 
+	 
+//  })();
+
+
+  </script>
+
+</body>
+</html>
