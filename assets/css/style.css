@@ -1451,4 +1451,8 @@ form {
   display: flex;
   flex-direction: column;
 }
-  
+   input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: #CF9FFF;
+  }
