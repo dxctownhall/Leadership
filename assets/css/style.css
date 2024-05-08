@@ -1456,3 +1456,7 @@ form {
     opacity: 1;
     color: #CF9FFF;
   }
+ .bold{
+    font-weight: bold;
+  }
+  
