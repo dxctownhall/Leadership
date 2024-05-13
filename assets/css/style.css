@@ -136,6 +136,18 @@ dl, ol, ul {
     /* height: 15rem; */
     /* margin-top: 2rem; */
 }
+.banner2-container{
+  margin-top: 4rem;
+  background-color:#603494;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* border-bottom: 4px solid #353628; */
+  /* height: 15rem; */
+  /* margin-top: 2rem; */
+}
 
 .banner1-container{
     margin-top: 1rem;
@@ -1447,16 +1459,28 @@ footer {
   .button2:hover {
     background-color: #603494;
   }
-form {
-  display: flex;
-  flex-direction: column;
-}
-   input::placeholder {
+  
+  input::placeholder {
     font-weight: bold;
+    text-decoration: solid;
     opacity: 1;
     color: #CF9FFF;
   }
- .bold{
+  .bold{
     font-weight: bold;
   }
-  
+  .scroll{
+    overflow: hidden;
+  }
+  .bg{
+    height: 100%; 
+    overflow: hidden;
+  }
+  .pagebg{
+    background-color: #170037;
+  }
+
+  .hdr{
+    color: #603494;
+    margin-top: 4rem;
+  }
