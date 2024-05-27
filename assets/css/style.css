@@ -1250,7 +1250,7 @@ footer {
  
 
   .image_gallery{
-    /* max-width: 100%; */
+    max-width: 100%; 
     /* display: grid; */
     /* display: grid;
     grid-template-columns: repeat(2, 1fr);
