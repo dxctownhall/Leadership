@@ -136,18 +136,6 @@ dl, ol, ul {
     /* height: 15rem; */
     /* margin-top: 2rem; */
 }
-.banner2-container{
-  margin-top: 4rem;
-  background-color:#603494;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  /* border-bottom: 4px solid #353628; */
-  /* height: 15rem; */
-  /* margin-top: 2rem; */
-}
 
 .banner1-container{
     margin-top: 1rem;
@@ -329,6 +317,11 @@ input[type=submit]:hover {
 .test5 {
     /* float: right; */
     /* padding-top: 4rem; */
+}
+.test17 {
+    /* float: right; */
+    padding-top: 2rem;
+    /* width: 100%; */
 }
 
 .test7 {
@@ -1250,7 +1243,7 @@ footer {
  
 
   .image_gallery{
-    max-width: 100%; 
+    /* max-width: 100%; */
     /* display: grid; */
     /* display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1306,188 +1299,3 @@ footer {
     /* padding: 2rem; */
     /* font-size:30px; */
   }
-
-  .form-new{
-    justify-content: center;
-    text-align: center;
-    /* align-content: center; */
-    margin-right: 22%;
-    margin-left: 20%;
-}
-
-.btnSubmit
-{
-    width: 50%;
-    text-align: center;
-    justify-content: center;
-    border-radius: 1rem;
-    padding: 1.5%;
-    color: #fff;
-    background-color: #603494;
-    border: none;
-    cursor: pointer;
-    margin-right: 6%;
-    color: rgb(246, 246, 252);
-    margin-top: 4%;
-}
-
-
-/* signin */
-.body1{
-    height: 100vh;
-    text-align: center;
-  }
-    /*Trigger Button*/
-  .login-trigger {
-    font-weight: bold;
-    color: #fff;
-    background: linear-gradient(to bottom right, #B05574, #F87E7B);
-    padding: 15px 30px;
-    border-radius: 30px;
-    position: relative; 
-    top: 50%;
-  }
-  
-  /*Modal*/
-  .h4 {
-    font-weight: bold;
-    color: #fff;
-  }
-  .close {
-    color: #fff;
-    transform: scale(1.2)
-  }
-  .modal-content {
-    font-weight: bold;
-    position: relative;
-    margin: 30px 0;
-    width: 310px;
-    border-bottom: 2px solid #fff;
-    /* background: linear-gradient(to bottom right,#F87E7B,#B05574); */
-  }
-  .form-control {
-    margin: 1em 0;
-  }
-  .form-control:hover, .form-control:focus {
-    box-shadow: none;  
-    border-color: #fff;
-  }
-  .username, .password {
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-    border-bottom: 2px solid #eee;
-    padding-left: 0;
-    font-weight: normal;
-    background: transparent;  
-  }
-  .form-control::-webkit-input-placeholder {
-    color: #eee;  
-  }
-  .form-control:focus::-webkit-input-placeholder {
-    font-weight: bold;
-    color: #fff;
-  }
-  .login {
-    padding: 6px 20px;
-    border-radius: 20px;
-    background: none;
-    border: 2px solid #FAB87F;
-    color: #FAB87F;
-    font-weight: bold;
-    transition: all .5s;
-    margin-top: 1em;
-  }
-  .login:hover {
-    background: #FAB87F;
-    color: #fff;
-  }
-
-
-.block{
-    padding-top: 4rem;
-}
-
-  .card {
-    background-color: #fff;
-    /* border-color: #603494; */
-    
-    /* padding: 20px; */
-    /* padding-top: 4rem; */
-    border-radius: 8px;
-    box-shadow: #603494;
-    
-  }
-  
-  h2 {
-    text-align: center;
-    color: #333;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  input {
-    padding: 10px;
-    margin-bottom: 12px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    transition: border-color 0.3s ease-in-out;
-    outline: none;
-    color: #333;
-  }
-  
-  input:focus {
-    border-color: #555;
-  }
-  
-  .button2 {
-    width: 100%;
-    background-color: #603494;
-    /* border-style: groove; */
-    color: #fff;
-    /* justify-content: center; */
-    padding: 10px;
-    border: none;
-    border-radius: 40px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .button2:hover {
-    background-color: #603494;
-  }
-  
-  input::placeholder {
-    font-weight: bold;
-    text-decoration: solid;
-    opacity: 1;
-    color: #CF9FFF;
-  }
-  .bold{
-    font-weight: bold;
-  }
-  .scroll{
-    overflow: hidden;
-  }
-  .bg{
-    height: 100%; 
-    overflow: hidden;
-  }
-  .pagebg{
-    background-color: #170037;
-  }
-
-  .hdr{
-    color: #603494;
-    margin-top: 4rem;
-  }
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
